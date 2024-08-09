@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+#root {
+    height: 100vh;
+    background-image: url('https://st3.depositphotos.com/12985656/15712/i/950/depositphotos_157120826-stock-photo-roasted-aromatic-brown-coffee-beans.jpg');
+    display: flex; /* Activar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    border: 1px solid #000; /* Opcional: para ver el contenedor */
+    
+}
+#barra {
+    background-color: red;
+    width: 90%;
+    height: 3px;
+}
+section {
+    background-color:  #dcbc84;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 300px;
+    margin: 1.5rem;
+}
+
+header {
+    display: flex;
+    gap: 0px;
+    align-items: center; /* Alinear elementos al inicio, sin espacio extra */
+    flex-direction: column;
+}
+
+
+table td {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    gap: 0px;
+    
+}
+
+img {
+    height: 50px;
+    width: 50px;
+
+}

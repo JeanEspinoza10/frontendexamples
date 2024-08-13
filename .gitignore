@@ -1,0 +1,81 @@
+# Dependencias de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Entorno de producción
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de desarrollo
+.DS_Store
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Directorios de construcción
+dist/
+build/
+coverage/
+tmp/
+temp/
+out/
+
+# Cache de npm
+.npm/
+
+# Cache de ESLint
+.eslintcache
+
+# Cache de Babel
+.cache/
+
+# Cache de TypeScript
+*.tsbuildinfo
+
+# Configuraciones locales de sistemas operativos
+Thumbs.db
+.DS_Store
+
+# Caches de pruebas
+.jest/
+.coverage/
+.nyc_output/
+
+# Directorios generados por herramientas
+node_modules/
+bower_components/
+.pnp/
+.pnp.js
+
+# Directorios de sistemas operativos
+.sass-cache/
+connect.lock
+coverage/
+.cache/
+.parcel-cache/
+.cdk.staging/
+.next/
+.nuxt/
+
+# Archivos de entorno y configuraciones locales
+.env*
+!.env.example
+
+# Ignorar archivos de bloqueo
+package-lock.json
+yarn.lock
+.pnpmfile.cjs
